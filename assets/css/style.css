@@ -1,0 +1,266 @@
+/* Meta gallery image css  */
+
+.gallery_area {
+    float:right;
+}
+.image_container {
+    float:left!important;
+    width: 100px;
+    background: url('https://i.hizliresim.com/dOJ6qL.png');
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.image_container img{
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+}
+.clear {
+    clear:both;
+}
+#gallery_wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+#gallery_wrapper input[type=text] {
+    width:300px;
+}
+#gallery_wrapper .gallery_single_row {
+    float: left;
+    display:inline-block;
+    width: 100px;
+    position: relative;
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+.dolu {
+    display: inline-block!important;
+}
+#gallery_wrapper label {
+    padding:0 6px;
+}
+.button.remove {
+    background: none;
+    color: #f1f1f1;
+    position: absolute;
+    border: none;
+    top: 4px;
+    right: 7px;
+    font-size: 1.2em;
+    padding: 0px;
+    box-shadow: none;
+}
+.button.remove:hover {
+    background: none;
+    color: #fff;
+}
+.button.add {
+    background: #c3c2c2;
+    color: #ffffff;
+    border: none;
+    box-shadow: none;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 4em;
+}
+.button.add:hover, .button.add:focus {
+    background: #e2e2e2;
+    box-shadow: none;
+    color: #0f88c1;
+    border: none;
+}
+
+
+.card {
+    background-color: #fff;
+    padding: 14px;
+    border: none
+    }
+
+
+
+    /*show the product */
+
+    .product-container {
+        margin-top: -520px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: flex-start;
+      }
+    
+      .product {
+        border: 1px solid #ddd;
+        padding: 10px;
+        width: calc(33.33% - 20px); /* Adjust width as needed for 3 products per row */
+        box-sizing: border-box;
+      }
+    
+      @media (max-width: 768px) {
+        .product {
+          width: calc(50% - 20px); /* Adjust width as needed for 2 products per row */
+        }
+      }
+    
+      .read-button{
+        width: 100%;
+      }
+    
+    
+    
+      #nopro{
+        margin-top: -500px;
+        margin-left: 190px;
+    }
+    
+
+
+    /*Pagination css*/
+		.pagination {
+			text-align: center;
+			margin-top: 20px;
+			font-size: 16px;
+		  }
+		  
+		  .pagination a {
+			display: inline-block;
+			padding: 8px 12px;
+			margin: 4px;
+			border: 1px solid #ccc;
+			background-color: #f7f7f7;
+			color: #333;
+			text-decoration: none;
+			border-radius: 4px;
+		  }
+		 
+		  .pagination a:hover {
+			background-color: #333;
+			color: #fff;
+		  }
+		  
+		  .pagination .current {
+			background-color: #333;
+			color: #fff;
+			font-weight: bold;
+			border: 1px solid #333; /* Thin border on the current page */
+		  }
+		  
+		  .pagination .dots {
+			padding: 8px 12px;
+			margin: 4px;
+		  }
+		  
+		  .pagination .prev,
+		  .pagination .next {
+			font-size: 18px;
+			font-weight: bold;
+		  }
+		  
+		  /* Style Font Awesome icons if used */
+		  .pagination .fa-angle-left,
+		  .pagination .fa-angle-right {
+			margin-right: 5px;
+			font-size: 20px;
+		  }
+		  .pagination span {
+			display: inline-block;
+			padding: 8px 12px;
+			margin: 4px;
+			border: 1px solid #ccc;
+			background-color: #f7f7f7;
+			color: #333;
+			text-decoration: none;
+			border-radius: 4px;
+		}		  
+
+
+
+/* Custom Sidebar Styles */
+#custom-sidebar {
+
+    width: 250px; /* Adjust the width as needed */
+    background-color: #fff; /* Background color for the sidebar */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a shadow for a raised effect */
+    padding: 20px; /* Add padding to the sidebar content */
+    z-index: 999; /* Make sure it's above other content */
+}
+
+/* Adjust the styles for the sections inside the sidebar as needed */
+.sidebar-section {
+    margin-bottom: 20px;
+}
+
+/* Style for search input */
+#search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for search button */
+#search-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0073e6; /* Adjust the background color as needed */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for categories list */
+.sidebar-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for category links */
+.category-filter {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333; /* Link color */
+}
+
+.category-filter:hover {
+    background-color: #f0f0f0; /* Hover background color */
+}
+
+/* Style for price range input */
+#price-range {
+    width: 100%;
+}
+
+/* Style for price value display */
+#price-value {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Styles for the results section (you can customize this as needed) */
+#custom-sidebar-results {
+    margin-left: 270px; /* Adjust to accommodate the width of the sidebar */
+    padding: 20px;
+}
+
+/* Style for checkboxes and labels on the same line */
+.sidebar-section label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Hide the default checkbox */
+.sidebar-section input[type="checkbox"] {
+    margin-right: 10px; /* Add some spacing between checkbox and label */
+    cursor: pointer;
+}
